@@ -91,7 +91,7 @@ void Lucha::iniciar_Lucha()
 											// Siempre poner un +1 para evitar error
 
 		// Genera una operación aleatoria (0 = suma, 1 = resta, 2 = multiplicación)
-		operacion = rand() % 2;
+		operacion = 1;
 
 		// Genera los valores de vidas
 		
@@ -228,7 +228,7 @@ void Lucha::iniciar_Lucha2()
 											// Siempre poner un +1 para evitar error
 
 		// Genera una operación aleatoria (0 = suma, 1 = resta, 2 = multiplicación)
-		operacion = rand() % 2;
+		operacion = 3;
 
 		// Genera los valores de vidas
 
